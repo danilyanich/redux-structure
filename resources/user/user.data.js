@@ -1,0 +1,393 @@
+export default {
+  1: {
+    _id: '1',
+    firstName: 'Andrew',
+    lastName: 'Orsich',
+    username: 'andreworsich',
+    image: 'https://trello-avatars.s3.amazonaws.com/23616a42b3226927d6ab9b2fc5905e19/original.png',
+    email: 'andrew@paralect.com',
+    bio: 'Hello world!',
+    teams: ['1', '2', '3'],
+    notifications: [],
+    settings: {
+      emailNotifications: {
+        checkInReminder: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+        weeklySummary: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+      },
+      timeZone: 'UTC +3',
+    },
+  },
+  2: {
+    _id: '2',
+    firstName: 'Nikita',
+    lastName: 'Borww',
+    username: 'SobakaSlava',
+    image: 'https://trello-avatars.s3.amazonaws.com/a34f0b51cd60f764c71e7b0965c10a54/original.png',
+    email: 'nikita.solo.1134@gmail.com',
+    bio: 'Я на выборы никогда не ходил, но в этот раз точно пойду за Грудинина голосовать. Кандидат от народа!',
+    teams: ['1', '2'],
+    notifications: [],
+    settings: {
+      emailNotifications: {
+        checkInReminder: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+        weeklySummary: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+      },
+      timeZone: 'UTC +3',
+    },
+  },
+  3: {
+    _id: '3',
+    firstName: 'Aliona',
+    lastName: 'Mozol',
+    username: 'alionamozol',
+    image: 'https://trello-avatars.s3.amazonaws.com/3695f09f8fdff0ddb23cfa10b5be1e30/original.png',
+    email: 'mozolaliona@gmail.com',
+    bio: 'Hello world!',
+    teams: ['1', '2'],
+    notifications: [],
+    settings: {
+      emailNotifications: {
+        checkInReminder: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+        weeklySummary: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+      },
+      timeZone: 'UTC +3',
+    },
+  },
+  4: {
+    _id: '4',
+    firstName: 'Max',
+    lastName: 'Starling',
+    username: 'maxstarling',
+    image: 'https://ca.slack-edge.com/T1MKTR0RX-U8WAH2YJH-96ec2fb31862-512',
+    email: '17.max.starling@gmail.com',
+    bio: 'My bio',
+    teams: ['1', '2'],
+    notifications: [],
+    settings: {
+      emailNotifications: {
+        checkInReminder: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+        weeklySummary: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+      },
+      timeZone: 'UTC +3',
+    },
+  },
+  5: {
+    _id: '5',
+    firstName: 'Pavel',
+    lastName: 'Kalugin',
+    username: 'pavelkalugin',
+    image: 'https://trello-avatars.s3.amazonaws.com/671432df54b0d888919c271b174da596/original.png',
+    email: 'by.kalugin@gmail.com',
+    bio: 'A person with a big heart',
+    teams: ['1', '2', '32311'],
+    notifications: [],
+    personalTeam: '32311',
+    settings: {
+      emailNotifications: {
+        checkInReminder: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+        weeklySummary: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+      },
+      timeZone: 'UTC +3',
+    },
+  },
+  6: {
+    _id: '6',
+    firstName: 'Polina',
+    lastName: 'Rudenko',
+    username: 'polinarudenko',
+    image: 'https://trello-avatars.s3.amazonaws.com/ea220d8c67e39a887bb45ec1d4f7ff61/original.png',
+    email: 'rudenkopolina@gmail.com',
+    bio: 'Hello',
+    teams: ['1', '2'],
+    notifications: [],
+    settings: {
+      emailNotifications: {
+        checkInReminder: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+        weeklySummary: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+      },
+      timeZone: 'UTC +3',
+    },
+  },
+  7: {
+    _id: '7',
+    firstName: 'Evgeny',
+    lastName: 'Marushko',
+    username: 'evgenymarushko',
+    image: 'https://trello-avatars.s3.amazonaws.com/86cdd1e9a00b6877cf3bf52f68dcd664/170.png',
+    email: 'evgenij12.97@gmail.com',
+    bio: 'Hello',
+    teams: ['1', '2'],
+    notifications: [],
+    settings: {
+      emailNotifications: {
+        checkInReminder: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+        weeklySummary: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+      },
+      timeZone: 'UTC +3',
+    },
+  },
+  8: {
+    _id: '8',
+    firstName: 'Michael',
+    lastName: 'Slizenko',
+    username: 'slizenko',
+    image: 'https://trello-avatars.s3.amazonaws.com/ac3a1fb8b38af4218aff0873aae688b7/170.png',
+    email: 'stoleyourbicycle@gmail.com',
+    bio: 'Hello',
+    teams: ['1', '2', '3'],
+    notifications: [],
+    settings: {
+      emailNotifications: {
+        checkInReminder: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+        weeklySummary: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+      },
+      timeZone: 'UTC +3',
+    },
+  },
+  9: {
+    _id: '9',
+    firstName: 'Nikita',
+    lastName: 'Goncharov',
+    username: 'nikitagoncharov',
+    image: 'https://trello-avatars.s3.amazonaws.com/88004f1253427cfc3b98dadddafd3b01/30.png',
+    email: 'nikichetotam@gmail.com',
+    bio: 'Hello',
+    teams: ['1', '3'],
+    notifications: [],
+    settings: {
+      emailNotifications: {
+        checkInReminder: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+        weeklySummary: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+      },
+      timeZone: 'UTC +3',
+    },
+  },
+  10: {
+    _id: '10',
+    firstName: 'Anna',
+    lastName: 'Korosteleva',
+    username: 'annakorosteleva',
+    image: '',
+    email: 'ann.korostelev@gmail.com',
+    bio: 'Hello',
+    teams: ['1', '3'],
+    notifications: [],
+    settings: {
+      emailNotifications: {
+        checkInReminder: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+        weeklySummary: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+      },
+      timeZone: 'UTC +3',
+    },
+  },
+  11: {
+    _id: '11',
+    firstName: 'Max',
+    lastName: 'Mabius',
+    username: 'maxmabius',
+    image: 'https://trello-avatars.s3.amazonaws.com/b9899ed97c146e9ab0f261bdc6b3c8ea/30.png',
+    email: 'maxmabius@gmail.com',
+    bio: 'Hello',
+    teams: ['1', '3'],
+    notifications: [],
+    settings: {
+      emailNotifications: {
+        checkInReminder: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+        weeklySummary: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+      },
+      timeZone: 'UTC +3',
+    },
+  },
+  12: {
+    _id: '12',
+    firstName: 'Eugene',
+    lastName: 'Shved',
+    username: 'eugeneshved',
+    image: 'https://trello-avatars.s3.amazonaws.com/190f66e38028d732c1922662d5f633ca/30.png',
+    email: 'snuggleshved@gmail.com',
+    bio: 'Hello',
+    teams: ['1', '3'],
+    notifications: [],
+    settings: {
+      emailNotifications: {
+        checkInReminder: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+        weeklySummary: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+      },
+      timeZone: 'UTC +3',
+    },
+  },
+  13: {
+    _id: '13',
+    firstName: 'Nikolai',
+    lastName: 'Yurkevich',
+    username: 'nikolaiyourkevich',
+    image: 'https://ca.slack-edge.com/T1MKTR0RX-U8VPH7X6C-745485839eaf-512',
+    email: 'kolyanbestele@gmail.com',
+    bio: 'Hello',
+    teams: ['1', '3'],
+    notifications: [],
+    settings: {
+      emailNotifications: {
+        checkInReminder: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+        weeklySummary: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+      },
+      timeZone: 'UTC +3',
+    },
+  },
+  14: {
+    _id: '14',
+    firstName: 'Yegor',
+    lastName: 'Koren',
+    username: 'purpleowl',
+    image: 'https://trello-avatars.s3.amazonaws.com/d9b45bcfd7d594dfbcc45c24b9091f34/original.png',
+    email: 'purpleowllight@gmail.com',
+    bio: 'Hello',
+    teams: ['1', '3'],
+    notifications: [],
+    settings: {
+      emailNotifications: {
+        checkInReminder: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+        weeklySummary: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+      },
+      timeZone: 'UTC +3',
+    },
+  },
+  15: {
+    _id: '15',
+    firstName: 'Alena',
+    lastName: 'Zhebrik',
+    username: 'alenazhebrik',
+    image: 'https://ca.slack-edge.com/T1MKTR0RX-U8X3SHN8J-04c51176886d-512',
+    email: 'a.zhebrik@paralect.com',
+    bio: 'Hello',
+    teams: ['1', '3'],
+    notifications: [],
+    settings: {
+      emailNotifications: {
+        checkInReminder: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+        weeklySummary: {
+          isActive: true,
+          every: 'Friday',
+          at: '12 AM',
+        },
+      },
+      timeZone: 'UTC +3',
+    },
+  },
+};
